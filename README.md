@@ -3,6 +3,8 @@ This game created for my web-based programming class assignment.
 You can play the game on this link :
 http://breakout.orgfree.com/index.html#
 
+Only controller in game is your mouse.
+
 ## Main
 Firstly I add screen to index.html.
 
