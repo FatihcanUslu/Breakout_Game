@@ -1,7 +1,7 @@
 # Breakout_Game
 This game created for my web-based programming class assignment.
 You can play the game on this link :
-http://breakout.orgfree.com/index.html
+http://breakout.orgfree.com/index.html#
 
 ## Main
 Firstly I add screen to index.html.
