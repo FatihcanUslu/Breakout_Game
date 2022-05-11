@@ -3,17 +3,20 @@ class Bricks {
 
     constructor(graphics) {
         this.fx = graphics;
-        this.red = "#e74c3c";
-        this.orange = "#e67e22";
-        this.yellow = "#f1c40f";
-        this.green = "#27ae60";
+        this.red = "#e74c3d";
+        this.orange = "#e77e22";
+        this.yellow = "#f3c40f";
+        this.green = "#29ae60";
+        this.lightblue = "#17a5cc";
+        this.blue = "#172ccc";
+        this.darkblue="5400fd";
         this.color = this.green;
 
         this.brickWidth = 0;
         this.brickHeight = 0;
         this.brickGap = 0;
-        this.columns =1;
-        this.rows = 1;
+        this.columns =11;
+        this.rows = 9;
         this.grid = null;
         this.liveBricks = 0;
     }
@@ -72,16 +75,25 @@ class Bricks {
             case 1:
                 this.color = this.red;
                 break;
-
             case 2:
-            case 3:
                 this.color = this.orange;
                 break;
-
-            case 4:
-            case 5:
+            case 3:
                 this.color = this.yellow;
                 break;
+            case 5:
+                this.color = this.green;
+                break;
+            case 6:
+                this.color = this.lightblue;
+                break;
+            case 7:
+                this.color = this.blue;
+                break;   
+            case 8:
+                this.color = this.darkblue;
+                break;
+                
         }
     }
 

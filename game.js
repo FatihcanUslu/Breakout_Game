@@ -36,7 +36,7 @@ function update() {
 }
 
 function draw() {
-    fx.fillCanvas("#2c3e50");
+    fx.fillCanvas("#000000");
     bricks.draw();
     ball.draw();
     paddle.draw();
