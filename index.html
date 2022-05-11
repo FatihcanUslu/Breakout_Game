@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <title>breakout</title>
+        <meta content="utf-8" http-equiv="encoding">
+        <link rel="stylesheet" type="text/css" href="game.css">
+        <script src='fx.js'></script>
+        <script src='bricks.js'></script>
+        <script src='paddle.js'></script>
+        <script src='ball.js'></script>
+        <script src='game.js'></script>
+    </head>
+    <body>
+        <div id="start" style="display:block">
+            <h1>Choose Your Game Mode</h1>
+            <a href="#" onclick="startGame()">No Death Mode</a>
+            <br>
+            <a href="#" onclick="LifestartGame()">Normal Mode</a>
+            <br>
+            <a href="#" onclick="FunModeGame()">Fun Mode</a>
+        </div>
+        <div id="game-over" style="display:none">
+            <h1>Game over</h1>
+            <h1 id="lastpoint"></h1>
+            <a href="#" onclick="startGame()">start game</a>
+        </div>
+        <canvas id="canvas" style="display:none"></canvas>
+    </body>
+</html>
