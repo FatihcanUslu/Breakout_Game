@@ -43,5 +43,5 @@ This mode is actually no death mode. But with one difference. There is no more r
 
 ![ht4](https://user-images.githubusercontent.com/72496488/167950980-7418f4e8-5c95-42e3-b163-fa1d9ae00fef.PNG)
 
-And that is it.
+And that is it. Dont forget to play the game on the link cya :D
 
