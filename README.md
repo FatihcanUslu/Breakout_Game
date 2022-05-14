@@ -2,6 +2,8 @@
 This game created for my web-based programming class assignment.
 You can play the game on this link :
 http://breakout.orgfree.com/index.html#
+or:
+https://ipproo.github.io/Breakout_Game/
 
 Only controller in game is your mouse.
 
